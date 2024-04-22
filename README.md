@@ -1,7 +1,7 @@
 
-# Mamdani Fuzzy Inference System (FIS) Implementation
+# fuzzyTA1 Jupyter Notebook Implementation
 
-This repository contains a Python implementation of a Mamdani Fuzzy Inference System (FIS). It is designed to model complex systems using fuzzy logic to make decisions based on imprecise inputs. The system processes inputs through membership functions and applies fuzzy logic rules to compute an output that is defuzzified to a crisp value.
+This repository contains a Jupyter Notebook implementation of a Mamdani Fuzzy Inference System (FIS). It is designed to model complex systems using fuzzy logic to make decisions based on imprecise inputs. The system processes inputs through membership functions and applies fuzzy logic rules to compute an output that is defuzzified to a crisp value.
 
 ## Installation
 
@@ -20,23 +20,15 @@ pip install pandas numpy matplotlib gdown
 
 There are two main components in this repository:
 
-### Mamdani_FIS.py
+### [fuzzyTA1.ipynb](https://github.com/Siavashiii/FuzzySystem/blob/main/fuzzyTA1.ipynb)
 
-This script defines a `Mamdani_FIS` class that:
+This Jupyter Notebook includes the implementation of the `Mamdani_FIS` that:
 - Initializes membership functions for input and output variables.
 - Processes input data through these functions.
 - Applies fuzzy logic rules to compute the degree of membership for outputs.
 - Defuzzifies the output to obtain a crisp value.
 
-To use the class, create an instance and call the `compute_output` method with velocity and distance as arguments:
-
-```python
-from Mamdani_FIS import Mamdani_FIS
-
-fis = Mamdani_FIS()
-output_pedal_position = fis.compute_output(velocity=60, distance=500)
-print(f"Output pedal position: {output_pedal_position}")
-```
+To use the notebook, simply run each cell sequentially, inputting your desired velocity and distance when prompted.
 
 ### RuleTable.py
 
