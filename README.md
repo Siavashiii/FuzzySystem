@@ -60,3 +60,10 @@ Contributions to this project are welcome. To contribute, please fork the reposi
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Code Block 3 - Updated Mamdani Fuzzy Inference System
+This section of the code defines the `Updated_Mamdani_FIS` class. It is an enhanced version of the standard Mamdani FIS, capable of loading rules from an external source and performing fuzzy inference. The class defines membership functions for velocity, distance, and pedal variables and implements the fuzzy logic rules to output a crisp pedal value based on input velocity and distance.
+
+### Plot: Membership Functions for Updated Mamdani FIS
+![Membership Functions for Updated Mamdani FIS](code4.png)
+This plot visualizes the membership functions used by the Updated Mamdani FIS for the input and output variables: velocity, distance, and pedal.
